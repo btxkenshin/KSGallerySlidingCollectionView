@@ -34,7 +34,6 @@ const CGFloat HomeNewsCellFeatureImageCoverAlpha = 0.2f;
     self.imageCover.alpha = HomeNewsCellCollapsedImageCoverAlpha - (percentOfGrowth * (HomeNewsCellCollapsedImageCoverAlpha - HomeNewsCellFeatureImageCoverAlpha));
     self.lSubTitle.alpha = percentOfGrowth * 0.85;
     self.lTitle.layer.transform = CATransform3DMakeScale(scaleAndAlpha, scaleAndAlpha, 1);
-//    self.lTitle.layer.transform = CATransform3DMakeScale(0.5+0.5*percentOfGrowth, 0.5+0.5*percentOfGrowth, 1);
     
     //You can do some constraint change if needed, cause i have no necessary to do this in this demo.
 
