@@ -35,7 +35,7 @@ const CGFloat HomeNewsCellFeatureImageCoverAlpha = 0.2f;
     self.lSubTitle.alpha = percentOfGrowth * 0.85;
     self.lTitle.layer.transform = CATransform3DMakeScale(scaleAndAlpha, scaleAndAlpha, 1);
     
-    //You can do some constraint change if needed, cause i have no necessary to do this in this demo.
+    //You can do some constraint or frame change if needed, cause i have set the correct constraint in HomeNewsCell.xib,there is no necessary to do any other change.
 
 }
 

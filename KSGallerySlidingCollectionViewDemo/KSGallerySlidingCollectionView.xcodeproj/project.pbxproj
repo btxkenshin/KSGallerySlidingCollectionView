@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				759DA3231AEE3F9F00921786 /* KSGallerySlidingCollectionView */,
-				759DA2FC1AEE3B8800921786 /* KSGallerySlidingCollectionView */,
+				759DA2FC1AEE3B8800921786 /* KSGallerySlidingCollectionViewDemo */,
 				759DA3161AEE3B8800921786 /* KSGallerySlidingCollectionViewTests */,
 				759DA2FB1AEE3B8800921786 /* Products */,
 			);
@@ -90,7 +90,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		759DA2FC1AEE3B8800921786 /* KSGallerySlidingCollectionView */ = {
+		759DA2FC1AEE3B8800921786 /* KSGallerySlidingCollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				759DA3011AEE3B8800921786 /* AppDelegate.h */,
@@ -105,6 +105,7 @@
 				759DA30C1AEE3B8800921786 /* LaunchScreen.xib */,
 				759DA2FD1AEE3B8800921786 /* Supporting Files */,
 			);
+			name = KSGallerySlidingCollectionViewDemo;
 			path = KSGallerySlidingCollectionView;
 			sourceTree = "<group>";
 		};
