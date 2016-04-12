@@ -21,6 +21,7 @@ see `KSGallerySlidingCollectionViewDemo`
 
 Add `pod 'KSGallerySlidingCollectionView'` to your Podfile
 
+
 # Usage
 
 (see sample Xcode project in /KSGallerySlidingCollectionViewDemo)
