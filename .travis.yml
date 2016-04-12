@@ -1,7 +1,7 @@
 lanague: objective-c
 osx_image: xcode7.2
-xcode_project: travis.xcodeproj
-xcode_scheme: travis
+xcode_project: KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj
+xcode_scheme: KSGallerySlidingCollectionView
 xcode_sdk: iphonesimulator9.2
 
 sudo: required
