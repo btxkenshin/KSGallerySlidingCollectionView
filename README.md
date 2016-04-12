@@ -1,6 +1,6 @@
 # KSGallerySlidingCollectionView
 
-![](https://travis-ci.org/btxkenshin/KSGallerySlidingCollectionView)
+![](https://travis-ci.org/btxkenshin/KSGallerySlidingCollectionView.svg)
 
 `KSGallerySlidingCollectionView` is a collection view menu in the style of UltraVisual.
 
