@@ -1,6 +1,9 @@
 language: objective-c
 
-osx_image: xcode7.1
+osx_image: xcode7.2
+xcode_project: KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj
+xcode_scheme: KSGallerySlidingCollectionView
+xcode_sdk: iphonesimulator9.2
 
-script: xcodebuild -project KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj -target KSGallerySlidingCollectionView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#script: xcodebuild -project KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj -target KSGallerySlidingCollectionView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
