@@ -1,4 +1,7 @@
 # KSGallerySlidingCollectionView
+
+![](https://travis-ci.org/btxkenshin/KSGallerySlidingCollectionView)
+
 `KSGallerySlidingCollectionView` is a collection view menu in the style of UltraVisual.
 
 ![image](https://github.com/btxkenshin/Resource/blob/master/KSGallerySlidingCollectionViewDemo2.gif?raw=true)
