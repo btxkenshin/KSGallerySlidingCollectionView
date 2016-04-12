@@ -1,0 +1,5 @@
+ngnguage: objective-c
+osx_image: xcode7.2
+xcode_project: travis.xcodeproj
+xcode_scheme: travis
+xcode_sdk: iphonesimulator9.2
