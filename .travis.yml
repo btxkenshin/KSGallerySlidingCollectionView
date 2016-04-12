@@ -4,4 +4,6 @@ xcode_project: KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView
 xcode_scheme: KSGallerySlidingCollectionView
 xcode_sdk: iphonesimulator9.2
 
+xcodebuild -project KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj -target KSGallerySlidingCollectionView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
 sudo: required
