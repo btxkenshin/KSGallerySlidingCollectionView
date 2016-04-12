@@ -1,4 +1,5 @@
 lanague: objective-c
 
-script: xcodebuild -project KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj -target KSGallerySlidingCollectionView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+sx_image: xcode7.1
+script: - xcodebuild -project KSGallerySlidingCollectionViewDemo/KSGallerySlidingCollectionView.xcodeproj -target KSGallerySlidingCollectionView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
