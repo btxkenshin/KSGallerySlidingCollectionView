@@ -92,7 +92,7 @@ const CGFloat KSGallerySlidingDragInterval = 180.0f;
     [attributesInRect enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         UICollectionViewLayoutAttributes *attributes = (UICollectionViewLayoutAttributes *)obj;
         NSIndexPath *indexPath = [attributes indexPath];
-        attributes.zIndex = indexPath.row;
+        attributes.zIndex = -1 * indexPath.row;
         NSInteger yValue = 0.0f;
         
         if (indexPath.row == topFeatureIndex) {
@@ -107,6 +107,7 @@ const CGFloat KSGallerySlidingDragInterval = 180.0f;
             CGFloat amountToGrow = MAX((featureHeight - normalHeight) *topCellsInterpolation, 0);
             NSInteger newHeight = normalHeight + amountToGrow;
             attributes.frame = CGRectMake(0.0f, bottomYValue - newHeight, CGRectGetWidth(rect), newHeight);
+            attributes.zIndex = 0;
         } else {
             // all other cells above or below those on screen
             yValue = lastRect.origin.y + lastRect.size.height;
